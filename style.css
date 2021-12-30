@@ -1,0 +1,132 @@
+html,body{
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+nav a{
+    margin-right: 20px;
+}
+nav a.topimage{
+    width: 30px;
+    height: 30px;
+    background-image: url('images/top.png');
+    border-radius: 50%;
+}
+#middle{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#middle a{
+    text-decoration: none;
+}
+#middle a:hover{
+    text-decoration: underline;
+}
+#logo{
+    text-align: center;
+}
+#searchbarcontainer{
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+#search , #voice{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search {
+    left: 10px;
+}
+#voice{
+    right: 10px;
+}
+#searchbar{
+    padding-left: 30px;
+    padding-right: 30px;
+    outline: 0;
+    width: 500px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+}
+#searchbar:hover{
+    border: 1px solid #aaa;
+    box-shadow: 0 0 3px #aaa;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#buttons button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+#buttons button:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+#links{
+    margin-top: 20px;
+    text-align: center;
+}
+#links a{
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+#footer{
+ background-color: #f2f2f2;
+}
+
+#footer-content{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+#footer-content a{
+    color: #70757a;
+    text-decoration: none;
+    padding: 0 5px;
+}
+#footer-content a:hover{
+    text-decoration: underline;
+}
